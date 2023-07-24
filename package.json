@@ -4,6 +4,7 @@
   "description": "cart REST API",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "jest",
     "dev": "echo \"This is dev testcases\" && exit 1",
     "prod": "echo \"This is PROD Testcases\" && exit 1",
