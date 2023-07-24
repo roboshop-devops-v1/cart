@@ -7,8 +7,8 @@
     "test": "jest",
     "dev": "echo \"This is dev testcases\" && exit 1",
     "prod": "echo \"This is PROD Testcases\" && exit 1",
-    "pretest": "echo \"This is pre-testcases\" && exit 1",
-    "posttest": "echo \"This is post-testcases\" && exit 1"
+    "pretest": "echo \"This is pre-testcases\"",
+    "posttest": "echo \"This is post-testcases\""
   },
   "author": "SteveW",
   "license": "Apache-2.0",
