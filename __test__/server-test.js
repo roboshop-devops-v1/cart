@@ -1,9 +1,9 @@
-const request = require('supertest');
-const redis = require('redis-mock');
+const request = require('../supertest');
+const redis = require('../redis-mock');
 const app = require('../server.js'); // Replace this with the actual path to your Express app file
 
 // Mock Redis client
-jest.mock('redis', () => require('redis-mock'));
+jest.mock('../redis', () => require('../redis-mock'));
 
 describe('Express App', () => {
   let server;
