@@ -5,6 +5,8 @@
 // // Mock Redis client
 // jest.mock('../redis', () => require('../redis-mock'));
 
+const app = require('../server.js')
+
 describe('Express App', () => {
   let server;
   beforeEach(() => {
