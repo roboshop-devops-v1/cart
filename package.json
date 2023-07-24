@@ -4,7 +4,7 @@
   "description": "cart REST API",
   "main": "server.js",
   "scripts": {
-    "test": "jest",
+    "test": "test",
     "dev": "echo \"This is dev testcases\" && exit 1",
     "prod": "echo \"This is PROD Testcases\" && exit 1",
     "pretest": "echo \"This is pre-testcases\"",
@@ -12,6 +12,10 @@
   },
   "author": "SteveW",
   "license": "Apache-2.0",
+  "jest": {
+    "testEnvironment": "node",
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.js$"
+  },
   "dependencies": {
       "body-parser": "^1.18.1",
       "express": "^4.15.4",
