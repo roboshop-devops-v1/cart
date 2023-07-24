@@ -17,6 +17,13 @@
     "testEnvironment": "node",
     "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.js$"
   },
+
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "supertest": "^6.2.0",
+    "redis-mock": "^0.10.3"
+  },
+
   "dependencies": {
       "body-parser": "^1.18.1",
       "express": "^4.15.4",
@@ -26,11 +33,7 @@
       "express-pino-logger": "^4.0.0",
       "pino-pretty": "^2.5.0",
       "@instana/collector": "^1.98.1",
-      "prom-client": "^11.5.3",
-
-      "jest": "^27.0.6",
-      "supertest": "^6.2.0",
-      "redis-mock": "^0.10.3"
+      "prom-client": "^11.5.3"
   }
 
 }
