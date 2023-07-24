@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "jest",
+    "test": "jest cart/__test__/server-test.js",
     "dev": "echo \"This is dev testcases\" && exit 1",
     "prod": "echo \"This is PROD Testcases\" && exit 1",
     "pretest": "echo This is pre-testcases",
