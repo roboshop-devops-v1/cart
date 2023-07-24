@@ -4,8 +4,20 @@
   "description": "cart REST API",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "dev": "echo \"This is dev testcases\" && exit 1",
+    "prod": "echo \"This is PROD Testcases\" && exit 1",
+    "pretest": "echo \"This is pre-testcases\" && exit 1",
+    "posttest": "echo \"This is post-testcases\" && exit 1"
   },
+
+  { "//": [
+    "This will be ignored as COMMENTS - multiline package comment is enable with ARRAY",
+    "see above scripts section ",
+    "npm install --dev  = install dev dependencies in package",
+     "npm install --prod  = install with prod dependencies in package" ] },
+
+
   "author": "SteveW",
   "license": "Apache-2.0",
   "dependencies": {
@@ -17,6 +29,16 @@
       "express-pino-logger": "^4.0.0",
       "pino-pretty": "^2.5.0",
       "@instana/collector": "^1.98.1",
-      "prom-client": "^11.5.3"
+      "prom-client": "^11.5.3",
+
+      "express": "^4.17.1",
+      "redis": "^3.1.2",
+      "request": "^2.88.2",
+      "body-parser": "^1.19.0",
+      "pino": "^7.14.1",
+      "express-pino-logger": "^4.0.0",
+      "prom-client": "^15.2.0"
   }
+
 }
+
